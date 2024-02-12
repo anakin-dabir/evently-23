@@ -69,8 +69,7 @@ io.on('connection', (Socket) => {
 				if (!receiver) {
 					return;
 				}
-				// send a notification to the
-				receiver;
+				// send a notification to the receiver;
 				io.to(receiver.socketId).emit('getNotification');
 
 				// send message to receiver
