@@ -32,7 +32,7 @@ mongoose
       for (const user of users) {
         const email = user.email;
         const subject = "Event Reminder";
-        const text = `<p>Don't forget about the upcoming event! Check it out here: <a href="eventor.com/event/${event._id}">eventor.com/event/${event._id}</a></p>`;
+        const text = `<p>Don't forget about the upcoming event! Check it out here: <a href="evently-23.com/event/${event._id}">evently-23.com/event/${event._id}</a></p>`;
   
         await sendEmail({ email, subject, text });
       }

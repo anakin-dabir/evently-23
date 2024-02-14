@@ -43,7 +43,7 @@ mongoose
   
       for (const user of users) {
         const recipientId = user._id;
-        const message = `<p>A new event has been created that matches your interests. Check it out here: <a href="eventor.com/event/${event._id}">eventor.com/event/${event._id}</a></p>`;
+        const message = `<p>A new event has been created that matches your interests. Check it out here: <a href="evently-23.com/event/${event._id}">evently-23.com/event/${event._id}</a></p>`;
         
         await sendNotification({ eventId: event._id, recipientId, message });
       }
