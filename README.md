@@ -123,7 +123,7 @@ Evently is a web application designed to provide users with a convenient platfor
 </ol>
 </li>
 
-- Start both client and server side servers separately by
+- Start frontend, backend and socket side separately by navigating to respective dirs and:
 
 ```bash
   yarn dev
